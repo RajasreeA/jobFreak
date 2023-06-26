@@ -1,0 +1,101 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #2f3848;
+    color: #fff;
+  }
+
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation li {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .navigation li:hover {
+    background-color: #3c4759;
+    cursor: pointer;
+  }
+
+  .navigation a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .navigation a:hover {
+    background-color: #3c4759;
+    color: #fff;
+  }
+
+  /* CSS for the main content area */
+  .content {
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: justify;
+  }
+
+  /* CSS for individual pages */
+  .page-heading {
+    display: flex;
+    align-items: center;
+    color: #2f3848;
+    margin-bottom: 20px;
+  }
+
+  .page-heading i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+
+  .page-heading h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  /* Colors */
+  .navigation {
+    background-color: #3949AB;
+  }
+
+  .navigation li {
+    background-color: #5C6BC0;
+  }
+
+  .navigation a {
+    color: #fff;
+  }
+
+  .content {
+    background-color: #F5F5F5;
+  }
+
+  .page-heading {
+    color: #3949AB;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navigation {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+
+    .content {
+      margin-left: 0;
+    }
+  }
